@@ -2,7 +2,7 @@
 
 > Data Structure and Algorithms Recap
 
-`Data Structure and Algorithms Recap` This project was created to recap some of Data Structure and Algorithm concepts.If you find useful, it is free to use.All of the codes from this project is from [AppMillers](www.appmillers.com) 
+`Data Structure and Algorithms Recap` This project was created to recap some of Data Structure and Algorithm concepts.If you find useful, it is free to use.All of the codes from this project are from [AppMillers](www.appmillers.com) 
 
 ## Goal
 
