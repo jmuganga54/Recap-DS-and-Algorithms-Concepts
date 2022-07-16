@@ -16,7 +16,7 @@
 
 | Course                                            | Home Page                                                             |
 | ------------------------------------------------- | --------------------------------------------------------------------- |
-| Udemy: React Front To Back 2022 | <https://www.udemy.com/course/react-front-to-back-2022/> |
+| AppMillers:Data Structures and Algorithms for Beginners | <www.appmillers.com> |
 
 ## Contributing
 
