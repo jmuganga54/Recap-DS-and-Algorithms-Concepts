@@ -29,9 +29,53 @@ Ok, we understand that we use data structure to make our application very effici
 
 And this is the main reason why big companies like Google, Apple, Amazon or Facebook ask questions about data structures and algorithms from the candidates during their interview process, a professional software developer has to know which data structure to choose for a particular app, which has a direct effect on the performance.
 
-
-
 ## Keywords & Notes
+### What is an algorithm
+> Set of steps to accomplish a task.
+
+For Example if you want to use organized  wooden items for `flooring`, we need to accomplish several steps.
+* Step 1: Choosing flooring.
+* Step 2: Purchase the floor and bring
+* Step 3: Prepare sub flooring.
+* Step 4: Determine the layout.
+* Step 5: Trim door casing.
+> so as you can see, we have completed a set of steps to accomplish our task of flooring 
+
+For Example : Algorithms in our daily lives : Going from home to work
+* Step 1: Go to bus stop
+* Step 2: Take a bus
+* Step 3: Go to office.
+> The tasks that we perform during the day are all algorithms.
+
+In Computer science, an algorithm is set of rules for computer program to accomplish a task. Learning about different types of algorithms and knowing when to apply them allows us to write time and memory efficient programs.
+
+![Algorithm](./img/algorithms.png)
+
+> Let's look at a few famous algorithms that are used by big companies.
+
+#### How do Google and Facebook transmit live videos across the internet?
+
+The answer is the are using `audio and video compress algorithms` to transmit live videos.
+
+#### How to find shortest part on the map?
+
+These are graph algorithms that are used in Google, Apple and Microsoft Maps to find shortest path `Dijkstra's algorithm` between two location.
+
+#### How to arrange solar panels on the International Space Station?
+
+Two location algorithms are used in space exploration as well. ` Optimization and scheduling algorithms are used by `NASA` to arrange solar panels on the International Space Station.
+
+> So by getting deep knowledge about existing algorithms and applying the right one, can make our programs faster.I
+>
+>t's also important to know how to design you algorithms as well as how to analyze their correctness and efficiency.
+
+#### What makes a good algorithm?
+The first one is algorithms solve the problem correctly and the second one is it does it so efficiently.
+
+1. Correctness
+2. Efficiency
+
+
 
 
 ## Summary
