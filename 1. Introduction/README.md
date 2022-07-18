@@ -76,6 +76,37 @@ The first one is algorithms solve the problem correctly and the second one is it
 2. Efficiency
 
 
+### Why are Data Structures and Algorithms important?
+
+As a software developer or a computer scientist, our responsibility is to perform operations on data. Basically, the following are the steps
+1. Take data as an input
+2. Process it 
+3. Give back data as an output.
+
+> The input can be in any format, for example: If you look at google maps, you current location or your input location and end location(destination) are used as your input data, it processed this data, to find the shortest path within this location and provide us an output.
+
+To make this process efficient, we need to optimize all the three steps.It's very obvious that the most we can optimize is second step[Processing data], where we can have data structures and algorithms.
+
+So by using graph data structures and data path algorithm, Google Maps is able to find the shortest path between provided points very efficiently.
+
+Scenario: Where you want to find a book in a Library but all the books are not organized. If the books could be organized, for example if you want to find a book of Algorithms, you can go to Computer Science section and look for Algorithm book
+
+> Here Books are data. Arranging them is a data structure and find the book that we need is algorithm.Thus, you can easily see how important data structures and algorithms are.
+
+In this manner, software developers process and look for the best way to organize the data so it can be processed based on input provided.
+
+> Why do most companies ask questions during interview related to data structures and algorithms?
+
+It is very clear that solutions to many problems that are related to software development can be found on the Internet.But by copying and pasting someone code without understanding the logic behind it, it's not possible to become professional software developer.
+
+By asking question related to data structure and algorithms, the interviewer test the problem solving ability of a candidate, for instance, even though today's computers come with more memory. If the developer does not handle memory management technique, the program may leak and lose the memory.
+
+This means that without understanding data structures, the code may end up with a memory
+
+> The second reason for this is that Interview has limited time to select a candidate, so by asking such questions, an interview can evaluate on the mental concepts of programming.
+
+This means that if a candidate good at data structure and algorithms, she or he can learn any new technology or programming language easily. You just need to learn the syntax of new programming language.
+
 
 
 ## Summary
