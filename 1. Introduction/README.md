@@ -107,6 +107,26 @@ This means that without understanding data structures, the code may end up with 
 
 This means that if a candidate good at data structure and algorithms, she or he can learn any new technology or programming language easily. You just need to learn the syntax of new programming language.
 
+### Types of Data Structures
+
+The data structures can be broadly grouped into two basic types, and that includes `Primitive data structures` and `Non-primitive data structures`.
+
+> The data structures that are built in the programming language itself, which are available to the programmer, are referred to as a `primitive data structures`. The most common primitive data structures are integer, float, character, string or boolean.They are included in almost all programming languages
+
+> Another type of data structures is `non-primitive data structures`, they are also referred to as  `User defined data structures`. Non-primitive data structures are drawn from primitive data types by combining two or more primitive data structures.
+
+These data structures can be subdivided as `Linear data structures` and `Non-Linear data structures`. `Linear data structures` the data items are arranged in memory in a linear, sequential manner, and they can be either static or dynamic.
+
+> `Static Linear data structures`, memory location are fixed at compile time. But `Dynamic Linear data structures` associated memory location change.
+
+However, when it comes to `Non-Linear data structures`. The data item is connected to several other items, they are not organized sequentially. 
+
+> Another type of `non-primitive data structure` is `non-Linear` in this type of data structure data item can be connected with more than one data items, this includes `Tree and Graph`.
+>
+![Types of Data Structures](./img/type_ds.png)
+As you see, we have various types of data structures and you might be wondering why do we need so many different types of data structures? So the answer is each of these data structure has its own unique properties which work very efficiently in different circumstances.
+
+For example `Graph data structure` works perfectly for maps and `stack data structures` works perfectly when you have backward and forward buttons in your application due to the first and last on nature.
 
 
 ## Summary
