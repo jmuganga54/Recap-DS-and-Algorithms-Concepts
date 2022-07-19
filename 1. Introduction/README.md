@@ -128,6 +128,87 @@ As you see, we have various types of data structures and you might be wondering 
 
 For example `Graph data structure` works perfectly for maps and `stack data structures` works perfectly when you have backward and forward buttons in your application due to the first and last on nature.
 
+### Types of Algorithms
 
+Algorithms can be classified based on the problem they are trying to solve, such as `sorting algorithms`, `search algorithms` and so on, or they can be classified based on the problem solving approach.
+
+Please not that here we are just clustering together the algorithms that use a similar problem solving approach. The purpose here is to highlight the various ways in which a problem can be attacked. Based on these criteria, algorithm type can :
+
+* Simple recursive algorithms
+* Divide and conquer algorithms
+* Dynamic programming algorithms 
+* Greedy algorithms
+* Brute force algorithms
+* Randomized algorithms
+
+Let see how this algorithms are about. 
+#### Simple Recursive algorithms
+
+The first line is `simply recursive algorithms`. Such algorithms work in same way as `iterative algorithms`, recursion X as a loop.
+
+If you hear a recursion for the first time, you can think of this, an `algorithm that calls itself, recursively`.
+
+`The simple algorithm for Recurisve Algorithm` can be like this.
+
+> ![Recursive Algorithms](./img/recursive.png)
+
+`The above sample` shows how recursive algorithm works. You see that inside sum function, we are calling the sum function itself with different parameters. This is how the recursion works.
+
+```
+const Sum = (A,n) =>{
+    let s = 0;
+
+    if(n===1){
+        return A[0]
+    }else{
+        s = Sum(A, n-1) // recurse on all but last
+        s = s + A[n-1] //add last element
+
+    }
+    return s
+}
+
+let total = Sum([10,20,30,40],4)
+console.log(total)
+
+Expected output: 100
+```
+
+#### Divide and conquer algorithms
+This type of algorithm consists of two parts.
+* Divide the problem into smaller sub problems of the same type, and solve these sub problems recursively
+* Combine the solution to the sub problems into a solution to the original problem
+
+Traditionally, an algorithm is called `divide and conquer` if it contains at least two recursive calls. Example `Quick sort and merge sort`
+
+#### Dynamic programming algorithms
+
+They work based on memorization which means that these algorithms remember the past results and use them to find new results.
+
+* They work based on memorization
+* To find the best solution.
+
+These types of algorithms are generally used for optimization problems. The goal is to find the best solution among multiple solutions.
+
+#### Greedy algorithms
+
+These algorithms are also for finding the best solution. They work well for optimization problems. Greedy algorithms works in phase, at each phase, we take the best we can without worrying about future consequences, and we hope that by choosing a local optimum solution at each step, we will end up at a global optimum solution.
+
+* We take the best we can without worrying about future consequences.
+* We hope that by choosing a local optimum solution at each step, we will end up at a global optimum solution.
+
+#### Brute force algorithms
+
+It simply tries all possibilities until a satisfactory solution is found, or is finding the best path between two location
+
+* It simply tries all possibilities until a satisfactory solution is found.
+
+#### Randomized algorithms
+
+Use a random number at least once during the computation to make a decision.
+ > You will see in the upcoming sections that the quicksort algorithm works based on the random number, to choose a private number and make a decision based on these.
+
+* Use a random number at least once during the computation to make a decision
 ## Summary
+In this section we have recap on introduction to Data structure and algorithm, which we have learn all the basic definition and the  intro of the topic.
 
