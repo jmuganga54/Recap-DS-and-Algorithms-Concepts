@@ -56,12 +56,12 @@ All dolls are opened
 > `when to chose recursion` A good hint here is that if you can divide the problem into simple sub problems, then you can use recursion. The important point here is then problem must be similar, otherwise, recursion is not a choice.
 >
 > So how can we know that this problem is similar in nature. So when you hear a problem begins with the following statements, it's often  always a good candidate for recursion.
->
-   * If you can divide the problem into similar sub problems
-    * Design an algorithm to compute nth
-    * Write code to list n
-    * Implement a method to compute all
-    * Practice
+
+* If you can divide the problem into similar sub problems
+* Design an algorithm to compute nth
+* Write code to list n
+* Implement a method to compute all
+* Practice
 > Finally, the best way to identify the problem is practice, the more problems you do, the easier it will be recognized because of problems.
 
 2.  The second reason to use recursion is the `prominent usage of recursion in data structures like tree and graphs`
