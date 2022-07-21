@@ -78,7 +78,47 @@ All dolls are opened
 
 > So without the knowledge of recursion these topics becomes very difficult to learn.
 
+### Big O Notation
 
+So in this section, we will discuss about an important concept which is a `big o`. 
+
+> `Big O` is the language and metric we use to describe the efficiency of algorithms.
+
+Without understanding `Big O Notation` it is not possible to develope efficient algorithms.
+
+If you don't know when you algorithm gets faster or slower, you'll struggle to judge your program performance.
+
+This concept basically gives you one way to describe the amount of time it takes to run your function as the size of input grows.
+
+> Imagine the scenario that you have a file on your hard drive and you need to send it to your friend. And we need to send this file as fast as possible.
+>
+>How should you send it?
+> 
+> The first thing that comes in our mind is that to send it by email or FTP or some other sort of electronic transfer, this is correct answer.
+> If the file size is small, it is faster than to take it to your friend physically.
+>
+> What if the file size is really large?
+>Is is possible that it's faster to physically deliver it via plane?
+>Yes, actually, it is one terabyte file could take more than one day to transfer it electronically.It will be much faster to just fly across the country if it is urgent, you might just want to do it.
+
+So as you can see, the delivery method is changed based on the file size, this means in the first method the time that is needed for the transfer of file increases as the size of file increase, on the other hand, in the second method, the time that is needed to transfer a file to a friend does not depend on the size of the file. 
+
+It does not matter if we carry one terabyte file or one gb file. The time that is needed for a flight is constant.So in computer science, this is called `time complexity`. It's a way of showing how a run time of the function increased as the size of input increases.
+
+So if we compare our example of transferring a file to a friend, we can easily see that in terms of time complexity, 
+>Electronic transfer increases linearly with the size of the file.
+>
+> But physical delivery is constant in any size.
+
+![Time Complexity](./img/time_complexity.png)
+
+There are various types of run time, such as `O(N), O(N^2), O(2^N)`
+
+For instance, to paint an area of W meters (wide) and height meters (high). The runtime could be described as `O(wh)`
+
+> Some algorithms are faster when the input is small, however, they become slower when the input gets larger.
+
+It's very crucial that our programs run faster because they are not executed in supercomputers.If a mobile app users face low performance from the app, they tend to quit and leave it.
 
 
 
