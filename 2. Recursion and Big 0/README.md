@@ -44,6 +44,41 @@ openRussianDoll(4)
 All dolls are opened
 ```
 
+### Why we need Recursion?
+`In this section we will look on why we need recursion`, So you might be interested why we need recursion?. There are many reasons for this, first of all, because of thinking is really important in programming and it helps you break down big into smaller one.
+
+1.  Recursive thinking is really important in programming and it helps you break down big problems into smaller ones and easier to use.
+
+> Recursion is used all the time in nearly every field, in nearly every language. If we compare the cost of way of writing code with iteratively, we can easily see that the recursive code is easy to write.
+>
+> Iteratively, of course, is basically where we use loops. so you might be interested if it is easier to write code, can we choose recursion over iteration? The answer is no, because there are situations where iteration performs faster than recursion. So it depends on the situation.
+>
+> `when to chose recursion` A good hint here is that if you can divide the problem into simple sub problems, then you can use recursion. The important point here is then problem must be similar, otherwise, recursion is not a choice.
+>
+> So how can we know that this problem is similar in nature. So when you hear a problem begins with the following statements, it's often  always a good candidate for recursion.
+        * If you can divide the problem into similar sub problems
+        * Design an algorithm to compute nth
+        * Write code to list n
+        * Implement a method to compute all
+        * Practice
+> Finally, the best way to identify the problem is practice, the more problems you do, the easier it will be recognized because of problems.
+
+2.  The second reason to use recursion is the `prominent usage of recursion in data structures like tree and graphs`
+
+> So when you are dealing with trees, the recursion become almost mandatory to use.So in the upcoming sections, we'll explain three data structures.And there you will see that without recursion, some operation on trees become almost impossible.
+>
+> But it doesn't mean that you can't use the Iteration over there. But in this case, recursion is preferable due to the easier nature of write code.So without learning recursion, the upcoming section will be extremely difficult to understand.
+
+3. So the third reason is that many companies ask questions related to recursion during the `interview`.
+
+> So to pass these interviews to get better job, recursion become extremely important 
+
+4. The fourth reason, is that `It is used in many algorithms` (divide and conquer, greedy and dynamic programming)
+
+> So without the knowledge of recursion these topics becomes very difficult to learn.
+
+
+
 
 
 
