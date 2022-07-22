@@ -147,7 +147,7 @@ We have three scenarios in case of measuring of any given algorithm.These are
 * Average case
 * Worst case
 
-![Case](./img/cases.png)
+![Case](./img/case.png)
 
 Let's say for an algorithm, it takes one minute to execute, in the worst case scenario, in the best case scenario, it takes just five seconds to execute, and finally, in the average case scenario, it takes 30 or 35 seconds escape.
 
