@@ -120,6 +120,108 @@ For instance, to paint an area of W meters (wide) and height meters (high). The 
 
 It's very crucial that our programs run faster because they are not executed in supercomputers.If a mobile app users face low performance from the app, they tend to quit and leave the app.
 
+### Big O Notations 
+> In the last section, we have learned what is the logic behind the notation.
+
+Now here we will look at different notations that are used in academics to describe rum times. But in the industry, people tend to use big o.
+
+To understand different notations that are used to measure the performance of algorithms, let's look at real life example.
+
+> Ok let say you want to by a brand new car, and obviously we want to know more about the performance of the car, which means that we are interested on how many litres of petrol it takes to driver 100 miles.
+
+Now, in case of a car, there is not a standard answer for this question, even through in any car's manual it might mention that it takes, for example 70 litres of petrol for a hundred miles. This information is not true, because a car can perform differently based on the condition. This number can be different based on this condition, you are driving the car.
+
+So if you drive the car in the city traffic, it's obvious that it takes more petrol, three hundred miles than when we drive it on the highway.
+
+And there might be a situation in which we drive a car in mixed condition, both traffic and highway.
+
+Let's imagine that it takes 
+* City traffic - 20litres
+* Highway - 10 litres
+* Mixed condition - 15 litres
+
+So here we see that the same car can perform differently based on the condition that we drive it. Similarly, algorithm can perform differently based on the condition that is given.
+
+We have three scenarios in case of measuring of any given algorithm.These are
+* Best case
+* Average case
+* Worst case
+
+![Case](./img/cases.png)
+
+Let's say for an algorithm, it takes one minute to execute, in the worst case scenario, in the best case scenario, it takes just five seconds to execute, and finally, in the average case scenario, it takes 30 or 35 seconds escape.
+
+So with the help of these three notation, we can define the best, worst, an average case of all. As an example, let's examine quicksort algorithm. 
+
+Those who don't know what is quicksort algorithm, you don't need to worry about it because I will provide detail information in sorting algorithm section, about it.
+
+But now you just need to know that it's an algorithm that supports an order list based on the selection of random number as a pilot number and swap greater values.
+
+![Quick Sort](./img/quick_sort.png)
+
+Let'ts look at this example over here to make things very clear. The first operation in this unsorted list targets the entire sequence of numbers. And the number is chosen as a reference for something which is called `pilot`, it is chosen at random.
+
+This time for convenience, let's choose the right most number as the `pilot` here in our case we chose `five`, the next thing that we are going to do is to place `left marker (L)` and the `right marker (R)`. `Left marker (L)` is on the left most number and the `right marker(R)` is on the right most number.
+
+Quicksort uses these markers to repeatedly perform rounds of operations recursively. The `left marker (L)` moves to the right in each step and compares the number with the `pilot number (P)` and stop when it reaches the number that's greater or equal to the `pilot number (P)`
+
+>In our case, it stopped in the first case because `six is greater than five`, which is `pilot number`.
+
+The the `right marker (R)` starts to move to the left, and this time when it reaches a number that is less than `pilot number`. In our case, it's three, which is less than five.
+
+When both left and right markers have stopped, the markers are slapped, in our case, `six slapped with three`.
+
+So the operation repeats like this until all the elements get sorted, so in the best scenario, all elements are equal and they pass over through the list, at least once, so for this case time complexity O(N). Because we are passing through all elements only once, and so if we have any elements in the list time complexity will be O(N).
+
+In the worst case if we are unlucky. The pilot is repeatedly biggest element in the array, so the time complexity will be O(N^2)
+
+In the average case, sometimes the pilot number will be very high and sometimes will be very low, but it will not happen over and over again. So in this case, time complexity will be O(log N). 
+
+Now to express different scenarios of algorithms.There are three different legal notations.
+
+* `Big O` : It is a complexity that is going to be less or equal to the worst case
+>
+> For example, if you want to sort 1000 numbers, Big O measures, the maximum time we need for this sorting. Let's say we need maximum 10 seconds to execute the algorithm.
+> This means that the execution will never exceed and it can be eight or nine seconds, but it will never be more than 10 seconds in case of big O limiation.
+
+* Big - (Big -Omega) : It is a complexity that is going to be at least more than the best case
+
+>
+> It is different from the big O limitation, here we measure the minimum time that we need to execute an algorithm, there might be cases that we want to know minimum time of algorithm execution, which means that if the best scenario for the execution of an algorithm is two seconds in terms of big O or mega, it will never be less than two seconds.
+>
+> For example, if you want to sort hundred numbers and we know that in the best case it takes two seconds. It will never be less than two seconds.Sometimes the information is useful for us, now in terms of the big data, it's the complexity that is within the bounds of worst and best cases. 
+>
+> This means that if we have an algorithm with maximum execution time, 10 seconds and minimum execution time, 12 seconds in terms of average time will be six seconds for execution.
+>
+![Arra of million items](./img/array_million.png)
+> Let' imagine that we have an area of one million elements, and our goal is to find a given number within this array.If we want a certain number, which is located at the end of this array in our case, which is nine, we basically check each element one by one until we find the element that we are looking for.
+>
+> In this case, we will visit all elements of this array.Let's say the time that we need to visit each element is one millisecond, so the time that we need to visit, all of the elements will be and multiply with one, where n is the number of elements in the array?
+>
+>Ok, how can we represent the searching process in terms of big O notation, so in terms of big O notation, it will be O(N) and this means that the maximum time that we need to find any given number within this array is n. It would not be more than that, find the last number in the array, which is nine, it takes n multiply with one.
+> So it will not be greater than O(N)
+>
+> In terms of big O Omega, it will be omega one.This means that the minimum time that is required for finding any given element is one, it will not be less than one to find any given number withing this array.
+>
+> In our case, it will never take less than one to find the first element in this are 
+
+* Big Theta (Big -) : It is a complexity that is within bounds of the worst and the best cases.
+>
+> in terms of Big Theta, it will be theta(n/2), this is hte average time that is needed to find any given no, this is because for finding different numbers, we need various unit of time.So we need to take average of these numbers.
+>
+> We need to know all these three notation for academic purposes.But when it comes to the interviewees, we only need big O notation.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
