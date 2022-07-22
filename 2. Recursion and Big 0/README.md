@@ -92,14 +92,14 @@ This concept basically gives you one way to describe the amount of time it takes
 
 > Imagine the scenario that you have a file on your hard drive and you need to send it to your friend. And we need to send this file as fast as possible.
 >
->How should you send it?
+>How would you send it?
 > 
 > The first thing that comes in our mind is that to send it by email or FTP or some other sort of electronic transfer, this is correct answer.
 > If the file size is small, it is faster than to take it to your friend physically.
 >
 > What if the file size is really large?
 >Is is possible that it's faster to physically deliver it via plane?
->Yes, actually, it is one terabyte file could take more than one day to transfer it electronically.It will be much faster to just fly across the country if it is urgent, you might just want to do it.
+>Yes, actually,If it is one terabyte file could take more than one day to transfer it electronically.It will be much faster to just fly across the country if it is urgent, you might just want to do it.
 
 So as you can see, the delivery method is changed based on the file size, this means in the first method the time that is needed for the transfer of file increases as the size of file increase, on the other hand, in the second method, the time that is needed to transfer a file to a friend does not depend on the size of the file. 
 
@@ -118,7 +118,7 @@ For instance, to paint an area of W meters (wide) and height meters (high). The 
 
 > Some algorithms are faster when the input is small, however, they become slower when the input gets larger.
 
-It's very crucial that our programs run faster because they are not executed in supercomputers.If a mobile app users face low performance from the app, they tend to quit and leave it.
+It's very crucial that our programs run faster because they are not executed in supercomputers.If a mobile app users face low performance from the app, they tend to quit and leave the app.
 
 
 
