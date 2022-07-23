@@ -1,5 +1,9 @@
 ## Topics
->In this section we are going to start learning `Array Data Structure`, it is the most used data structure, and that 
+
+>In this section we are going to start learning `Data Structure`
+
+## Key points && Notes
+### Array
 
 `Array` is a simply collection of object for things, they are very powerful data structures that store list of elements and they have endless application.
 
@@ -28,7 +32,5 @@ So in software programs, the array is used almost everywhere in the program to s
 
 
 
-
-## Key points && Notes
 
 ## Summary
